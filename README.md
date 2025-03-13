@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Güven Ağı
 
-## Getting Started
+**Güven Ağı** is an open-source platform designed to connect women and children in need with verified NGOs that can provide support. The platform ensures security, privacy, and efficiency in handling help requests.
 
-First, run the development server:
+## Features
+- Secure help request submission
+- Verified NGO network
+- Privacy-focused user interactions
+- Real-time notifications for NGOs
+- Open-source and community-driven development
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+- **Frontend**: [Next.js](https://nextjs.org/)
+- **Backend**: Next.js with API routes
+- **Database & Authentication**: Supabase (Migrating from PostgreSQL)
+- **Hosting**: Google Cloud Platform (GCP)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
+To run the project locally, follow these steps:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
+- Node.js (v22)
+- pnpm
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Steps
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/guven-agi/guvenagi-website.git
+   cd guven-agi
+   ```
+2. Install dependencies:
+   ```sh
+   pnpm install
+   ```
+3. Start the development server:
+   ```sh
+   pnpm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## License
+This project is licensed under the MIT License.
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
+For inquiries or support, reach out to **your email or website**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Let's make a difference together!
